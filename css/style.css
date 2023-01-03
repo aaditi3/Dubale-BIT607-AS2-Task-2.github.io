@@ -31,6 +31,18 @@ body {
     color: black;
 }
 
+.h3 {
+    text-align:center;
+}
+
+.h4 {
+    text-align: left;
+}
+
+.menu_price {
+    float: right;
+}
+
 .nav {
     font-size: 1.25em;
     font-style: none;
@@ -40,7 +52,7 @@ body {
 }
 
 .footer li {
-    display: inline-block;
+    display: inline;
  }
  
 .footer { 
@@ -51,3 +63,4 @@ body {
     color: black;
     background-color: #f6f5e3;
 }
+
