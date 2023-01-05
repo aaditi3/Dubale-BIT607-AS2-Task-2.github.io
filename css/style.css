@@ -23,14 +23,18 @@ body {
 }
 
 .topnav a {
-    float:left;
-    display:block;
+    float: left;
+    display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     font-size: 1.25em;
     font-style: none;
     font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color:coral;
 }
 
 .h1 {
@@ -69,8 +73,52 @@ body {
     padding: 80px;
 }
 
-.menu_categories {
-    padding: 10px;
+.photo_food{
+    border-radius: 8px;
+    max-width: 40%;
+    height: auto;
+}
+
+.photo_drink {
+    border-radius: 8px;
+    max-width: 40%;
+    height: auto;
+}
+
+.form_contact {
+    float: left;
+    padding: 20px;
+    width= 640px;
+    height= 769px;
+/* frameborder="0" marginheight="0" marginwidth="0" */
+
+}
+
+.form_reservations {
+    width:80%;
+    height:1188px;
+    padding: 20px;
+}
+
+.map_contact {
+    float: right;
+    padding: 20px;
+    width= 600px;
+    height= 450px;
+/* style="border:0;" */ 
+}
+
+.menu_categories a {
+    float: left;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    font-style: none;
+    font-weight: bold;
+}
+
+.menu_categories a:hover {
+    background-color: coral;
 }
 
 .menu_description {
@@ -82,7 +130,6 @@ body {
 .menu_price {
     float: right;
 }
-
 
 .footer li {
     display: inline;
@@ -96,5 +143,9 @@ body {
     font-weight: none;
     color: black;
     background-color: #f6f5e3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
