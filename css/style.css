@@ -25,6 +25,7 @@ body {
     text-decoration: none;
     background-color: #fcffeb;
     color: black;
+    margin-bottom: 100px;
 }
 
 .topnav {
@@ -70,6 +71,7 @@ body {
 .h3 {
     text-align:center;
     padding: 10px;
+    clear: left;
 }
 
 .h4 {
@@ -80,42 +82,68 @@ body {
 }
 
 .photo_home {
-    padding: 80px;
+    border-radius: 8px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .photo_food{
     border-radius: 8px;
     max-width: 40%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .photo_drink {
     border-radius: 8px;
     max-width: 40%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-.form_contact {
-    float: left;
-    padding: 20px;
-    width= 640px;
-    height= 769px;
-/* frameborder="0" marginheight="0" marginwidth="0" */
+.container_contact {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 100%;
+    }
+}
 
+/*
+.form_contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.map_contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .form_reservations {
     width:80%;
     height:1188px;
     padding: 20px;
-}
-
-.map_contact {
-    float: right;
-    padding: 20px;
-    width= 600px;
-    height= 450px;
-/* style="border:0;" */ 
 }
 
 .menu_categories a {
